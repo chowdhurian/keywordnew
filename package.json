@@ -1,7 +1,7 @@
 {
   "name": "keywordnew",
   "version": "2.0.0",
-  "description": "A personal CLI card for Manil Chowdhury (@keywordnew)",
+  "description": "A CLI calling card for Manil Chowdhury (@keywordnew)",
   "main": "index.js",
   "bin": {
     "keywordnew": "./bin/card.js"
