@@ -1,20 +1,20 @@
 {
-  "name": "bitandbang",
-  "version": "1.1.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "name": "keywordnew",
+  "version": "2.0.0",
+  "description": "A personal CLI card for Manil Chowdhury (@keywordnew)",
   "main": "index.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "keywordnew": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnb/bitandbang.git"
+    "url": "https://github.com/chowdhurian/keywordnew.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Manil Chowdhury <manil@keywordnew.space> (https://manil.codes)",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",
