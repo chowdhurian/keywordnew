@@ -16,7 +16,7 @@ let data = {
   'name': chalk.white('Manil Chowdhury /'),
   'handle': chalk.yellow('keywordnew'),
   'work': chalk.white('Developer Advocate at InVision'),
-  'twitter': chalk.yellow('https://twitter.com/keywordnew'),
+  'twitter': chalk.yellow('https://mobile.twitter.com/keywordnew'),
   'github': chalk.yellow('https://github.com/keywordnew'),
   'linkedin': chalk.yellow('https://linkedin.com/in/manilchowdhury'),
   'web': chalk.yellow('https://manil.codes'),

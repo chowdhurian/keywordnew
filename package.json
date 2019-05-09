@@ -1,6 +1,6 @@
 {
   "name": "keywordnew",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A CLI calling card for Manil Chowdhury (@keywordnew)",
   "main": "index.js",
   "bin": {
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chowdhurian/keywordnew.git"
+    "url": "https://github.com/keywordnew/keywordnew.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Manil Chowdhury <manil@keywordnew.space> (https://manil.codes)",
+  "author": "Manil Chowdhury <manil.chowdhury@protonmail.com> (https://manil.codes)",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",
