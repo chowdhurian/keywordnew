@@ -15,7 +15,8 @@ let options = {
 let data = {
   'name': chalk.white('Manil Chowdhury /'),
   'handle': chalk.yellow('keywordnew'),
-  'work': chalk.white('Developer Advocate at InVision'),
+  'workplace': chalk.magenta('https://www.invisionapp.com/'),
+  'title': chalk.white('Developer Advocate at'),
   'twitter': chalk.yellow('https://mobile.twitter.com/keywordnew'),
   'github': chalk.yellow('https://github.com/keywordnew'),
   'linkedin': chalk.yellow('https://linkedin.com/in/manilchowdhury'),
@@ -32,7 +33,7 @@ let data = {
 // Actual strings we're going to output
 var newline = '\n'
 var heading = `${data.name} ${data.handle}`
-var working = `${data.labelWork}  ${data.work}`
+var working = `${data.labelWork}  ${data.title} ${data.workplace}`
 var twittering = `${data.labelTwitter}  ${data.twitter}`
 var githubing = `${data.labelGitHub}  ${data.github}`
 var linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
