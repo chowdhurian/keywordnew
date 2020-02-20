@@ -20,7 +20,7 @@ let data = {
   'twitter': chalk.yellow('https://mobile.twitter.com/keywordnew'),
   'github': chalk.yellow('https://github.com/keywordnew'),
   'linkedin': chalk.yellow('https://linkedin.com/in/manilchowdhury'),
-  'web': chalk.yellow('https://manil.codes'),
+  'web': chalk.yellow('https://manil.xyz'),
   'npx': chalk.white('npx keywordnew'),
   'labelWork': chalk.white.bold('      Work:'),
   'labelTwitter': chalk.white.bold('   Twitter:'),
