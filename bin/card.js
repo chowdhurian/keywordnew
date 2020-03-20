@@ -22,12 +22,14 @@ let data = {
   'linkedin': chalk.yellow('https://linkedin.com/in/manilchowdhury'),
   'web': chalk.yellow('https://manil.xyz'),
   'npx': chalk.white('npx keywordnew'),
+  'blog': chalk.yellow('http://nilspace.xyz'),
   'labelWork': chalk.white.bold('      Work:'),
   'labelTwitter': chalk.white.bold('   Twitter:'),
   'labelGitHub': chalk.white.bold('    GitHub:'),
-  'labelLinkedIn': chalk.white.bold('  LinkedIn:'),
+  'labelLinkedIn': chalk.white.bold('   History:'),
   'labelWeb': chalk.white.bold('       Web:'),
-  'labelCard': chalk.white.bold('      Card:')
+  'labelCard': chalk.white.bold('      Card:'),
+  'labelBlog': chalk.white.bold('      Blog:')
 }
 
 // Actual strings we're going to output
@@ -39,8 +41,9 @@ var githubing = `${data.labelGitHub}  ${data.github}`
 var linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 var webing = `${data.labelWeb}  ${data.web}`
 var carding = `${data.labelCard}  ${data.npx}`
+var blogging = `${data.labelBlog}  ${data.blog}`
 
 // Put all our output together into a single variable so we can use boxen effectively
-let output = heading + newline + newline + working + newline + twittering + newline + githubing + newline + linkedining + newline + webing + newline + newline + carding
+let output = heading + newline + newline + working + newline + blogging + newline + twittering + newline + githubing + newline + linkedining + newline + webing + newline + newline + carding
 
 console.log(chalk.green(boxen(output, options)))
